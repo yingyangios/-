@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C314DA21D3D0BD200D17192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C314DA11D3D0BD200D17192 /* AppDelegate.swift */; };
+		3C314DA41D3D0BD200D17192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C314DA31D3D0BD200D17192 /* ViewController.swift */; };
+		3C314DA71D3D0BD200D17192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DA51D3D0BD200D17192 /* Main.storyboard */; };
+		3C314DA91D3D0BD200D17192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DA81D3D0BD200D17192 /* Assets.xcassets */; };
+		3C314DAC1D3D0BD200D17192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DAA1D3D0BD200D17192 /* LaunchScreen.storyboard */; };
+		3C314DB71D3D0BD200D17192 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C314DB61D3D0BD200D17192 /* ____Tests.swift */; };
+		3C314DC21D3D0BD200D17192 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C314DC11D3D0BD200D17192 /* ____UITests.swift */; };
+		3C314DD11D3D0C1A00D17192 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C314DD01D3D0C1A00D17192 /* PresentViewController.swift */; };
+		3C314DD31D3D0C3B00D17192 /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C314DD21D3D0C3B00D17192 /* PresentingViewController.swift */; };
+		3C314DD81D3D0D0F00D17192 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DD41D3D0D0F00D17192 /* pic1.jpg */; };
+		3C314DD91D3D0D0F00D17192 /* pic2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DD51D3D0D0F00D17192 /* pic2.jpeg */; };
+		3C314DDA1D3D0D0F00D17192 /* zrx3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DD61D3D0D0F00D17192 /* zrx3.jpg */; };
+		3C314DDB1D3D0D0F00D17192 /* zrx4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C314DD71D3D0D0F00D17192 /* zrx4.jpg */; };
+		3E2014C400E969285B4DA15B /* libPods-转场动画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9813075750A27CFEEAA552 /* libPods-转场动画.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C314DB31D3D0BD200D17192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C314D961D3D0BD100D17192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C314D9D1D3D0BD200D17192;
+			remoteInfo = "转场动画";
+		};
+		3C314DBE1D3D0BD200D17192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C314D961D3D0BD100D17192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C314D9D1D3D0BD200D17192;
+			remoteInfo = "转场动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C314D9E1D3D0BD200D17192 /* 转场动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "转场动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C314DA11D3D0BD200D17192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C314DA31D3D0BD200D17192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C314DA61D3D0BD200D17192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C314DA81D3D0BD200D17192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C314DAB1D3D0BD200D17192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C314DAD1D3D0BD200D17192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C314DB21D3D0BD200D17192 /* 转场动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转场动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C314DB61D3D0BD200D17192 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		3C314DB81D3D0BD200D17192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C314DBD1D3D0BD200D17192 /* 转场动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转场动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C314DC11D3D0BD200D17192 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		3C314DC31D3D0BD200D17192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C314DD01D3D0C1A00D17192 /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		3C314DD21D3D0C3B00D17192 /* PresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		3C314DD41D3D0D0F00D17192 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		3C314DD51D3D0D0F00D17192 /* pic2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpeg; sourceTree = "<group>"; };
+		3C314DD61D3D0D0F00D17192 /* zrx3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zrx3.jpg; sourceTree = "<group>"; };
+		3C314DD71D3D0D0F00D17192 /* zrx4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zrx4.jpg; sourceTree = "<group>"; };
+		3C314DDC1D3D158000D17192 /* 转场动画-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "转场动画-Bridging-Header.h"; sourceTree = "<group>"; };
+		7806FB613D8A0E8C492F363A /* Pods-转场动画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-转场动画.release.xcconfig"; path = "Pods/Target Support Files/Pods-转场动画/Pods-转场动画.release.xcconfig"; sourceTree = "<group>"; };
+		7D9813075750A27CFEEAA552 /* libPods-转场动画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-转场动画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B063E342CD7D85052874BBC0 /* Pods-转场动画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-转场动画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-转场动画/Pods-转场动画.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C314D9B1D3D0BD200D17192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2014C400E969285B4DA15B /* libPods-转场动画.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C314DAF1D3D0BD200D17192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C314DBA1D3D0BD200D17192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33724901031657E35E0B5DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D9813075750A27CFEEAA552 /* libPods-转场动画.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C314D951D3D0BD100D17192 = {
+			isa = PBXGroup;
+			children = (
+				3C314DA01D3D0BD200D17192 /* 转场动画 */,
+				3C314DB51D3D0BD200D17192 /* 转场动画Tests */,
+				3C314DC01D3D0BD200D17192 /* 转场动画UITests */,
+				3C314D9F1D3D0BD200D17192 /* Products */,
+				A4CC7C843441C9A920933741 /* Pods */,
+				33724901031657E35E0B5DF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C314D9F1D3D0BD200D17192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C314D9E1D3D0BD200D17192 /* 转场动画.app */,
+				3C314DB21D3D0BD200D17192 /* 转场动画Tests.xctest */,
+				3C314DBD1D3D0BD200D17192 /* 转场动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C314DA01D3D0BD200D17192 /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3C314DCF1D3D0BFC00D17192 /* present */,
+				3C314DA11D3D0BD200D17192 /* AppDelegate.swift */,
+				3C314DA31D3D0BD200D17192 /* ViewController.swift */,
+				3C314DA51D3D0BD200D17192 /* Main.storyboard */,
+				3C314DA81D3D0BD200D17192 /* Assets.xcassets */,
+				3C314DAA1D3D0BD200D17192 /* LaunchScreen.storyboard */,
+				3C314DAD1D3D0BD200D17192 /* Info.plist */,
+				3C314DD41D3D0D0F00D17192 /* pic1.jpg */,
+				3C314DD51D3D0D0F00D17192 /* pic2.jpeg */,
+				3C314DD61D3D0D0F00D17192 /* zrx3.jpg */,
+				3C314DD71D3D0D0F00D17192 /* zrx4.jpg */,
+				3C314DDC1D3D158000D17192 /* 转场动画-Bridging-Header.h */,
+			);
+			path = "转场动画";
+			sourceTree = "<group>";
+		};
+		3C314DB51D3D0BD200D17192 /* 转场动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C314DB61D3D0BD200D17192 /* ____Tests.swift */,
+				3C314DB81D3D0BD200D17192 /* Info.plist */,
+			);
+			path = "转场动画Tests";
+			sourceTree = "<group>";
+		};
+		3C314DC01D3D0BD200D17192 /* 转场动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C314DC11D3D0BD200D17192 /* ____UITests.swift */,
+				3C314DC31D3D0BD200D17192 /* Info.plist */,
+			);
+			path = "转场动画UITests";
+			sourceTree = "<group>";
+		};
+		3C314DCF1D3D0BFC00D17192 /* present */ = {
+			isa = PBXGroup;
+			children = (
+				3C314DD01D3D0C1A00D17192 /* PresentViewController.swift */,
+				3C314DD21D3D0C3B00D17192 /* PresentingViewController.swift */,
+			);
+			name = present;
+			sourceTree = "<group>";
+		};
+		A4CC7C843441C9A920933741 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B063E342CD7D85052874BBC0 /* Pods-转场动画.debug.xcconfig */,
+				7806FB613D8A0E8C492F363A /* Pods-转场动画.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C314D9D1D3D0BD200D17192 /* 转场动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C314DC61D3D0BD200D17192 /* Build configuration list for PBXNativeTarget "转场动画" */;
+			buildPhases = (
+				D3C5F981E7B1D41C2B8AD66D /* 📦 Check Pods Manifest.lock */,
+				3C314D9A1D3D0BD200D17192 /* Sources */,
+				3C314D9B1D3D0BD200D17192 /* Frameworks */,
+				3C314D9C1D3D0BD200D17192 /* Resources */,
+				15A1FAC26CB7E1FBDE3D44BD /* 📦 Embed Pods Frameworks */,
+				045CAB12D0E7CD0A273181D9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "转场动画";
+			productName = "转场动画";
+			productReference = 3C314D9E1D3D0BD200D17192 /* 转场动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C314DB11D3D0BD200D17192 /* 转场动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C314DC91D3D0BD200D17192 /* Build configuration list for PBXNativeTarget "转场动画Tests" */;
+			buildPhases = (
+				3C314DAE1D3D0BD200D17192 /* Sources */,
+				3C314DAF1D3D0BD200D17192 /* Frameworks */,
+				3C314DB01D3D0BD200D17192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C314DB41D3D0BD200D17192 /* PBXTargetDependency */,
+			);
+			name = "转场动画Tests";
+			productName = "转场动画Tests";
+			productReference = 3C314DB21D3D0BD200D17192 /* 转场动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C314DBC1D3D0BD200D17192 /* 转场动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C314DCC1D3D0BD200D17192 /* Build configuration list for PBXNativeTarget "转场动画UITests" */;
+			buildPhases = (
+				3C314DB91D3D0BD200D17192 /* Sources */,
+				3C314DBA1D3D0BD200D17192 /* Frameworks */,
+				3C314DBB1D3D0BD200D17192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C314DBF1D3D0BD200D17192 /* PBXTargetDependency */,
+			);
+			name = "转场动画UITests";
+			productName = "转场动画UITests";
+			productReference = 3C314DBD1D3D0BD200D17192 /* 转场动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C314D961D3D0BD100D17192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵炎";
+				TargetAttributes = {
+					3C314D9D1D3D0BD200D17192 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B82MDR732H;
+					};
+					3C314DB11D3D0BD200D17192 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B82MDR732H;
+						TestTargetID = 3C314D9D1D3D0BD200D17192;
+					};
+					3C314DBC1D3D0BD200D17192 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B82MDR732H;
+						TestTargetID = 3C314D9D1D3D0BD200D17192;
+					};
+				};
+			};
+			buildConfigurationList = 3C314D991D3D0BD100D17192 /* Build configuration list for PBXProject "转场动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C314D951D3D0BD100D17192;
+			productRefGroup = 3C314D9F1D3D0BD200D17192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C314D9D1D3D0BD200D17192 /* 转场动画 */,
+				3C314DB11D3D0BD200D17192 /* 转场动画Tests */,
+				3C314DBC1D3D0BD200D17192 /* 转场动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C314D9C1D3D0BD200D17192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C314DD81D3D0D0F00D17192 /* pic1.jpg in Resources */,
+				3C314DAC1D3D0BD200D17192 /* LaunchScreen.storyboard in Resources */,
+				3C314DDB1D3D0D0F00D17192 /* zrx4.jpg in Resources */,
+				3C314DA91D3D0BD200D17192 /* Assets.xcassets in Resources */,
+				3C314DD91D3D0D0F00D17192 /* pic2.jpeg in Resources */,
+				3C314DDA1D3D0D0F00D17192 /* zrx3.jpg in Resources */,
+				3C314DA71D3D0BD200D17192 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C314DB01D3D0BD200D17192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C314DBB1D3D0BD200D17192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045CAB12D0E7CD0A273181D9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-转场动画/Pods-转场动画-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15A1FAC26CB7E1FBDE3D44BD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-转场动画/Pods-转场动画-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C5F981E7B1D41C2B8AD66D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C314D9A1D3D0BD200D17192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C314DA41D3D0BD200D17192 /* ViewController.swift in Sources */,
+				3C314DA21D3D0BD200D17192 /* AppDelegate.swift in Sources */,
+				3C314DD11D3D0C1A00D17192 /* PresentViewController.swift in Sources */,
+				3C314DD31D3D0C3B00D17192 /* PresentingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C314DAE1D3D0BD200D17192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C314DB71D3D0BD200D17192 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C314DB91D3D0BD200D17192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C314DC21D3D0BD200D17192 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C314DB41D3D0BD200D17192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C314D9D1D3D0BD200D17192 /* 转场动画 */;
+			targetProxy = 3C314DB31D3D0BD200D17192 /* PBXContainerItemProxy */;
+		};
+		3C314DBF1D3D0BD200D17192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C314D9D1D3D0BD200D17192 /* 转场动画 */;
+			targetProxy = 3C314DBE1D3D0BD200D17192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C314DA51D3D0BD200D17192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C314DA61D3D0BD200D17192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C314DAA1D3D0BD200D17192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C314DAB1D3D0BD200D17192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C314DC41D3D0BD200D17192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C314DC51D3D0BD200D17192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C314DC71D3D0BD200D17192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B063E342CD7D85052874BBC0 /* Pods-转场动画.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "转场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyan.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "转场动画/转场动画-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C314DC81D3D0BD200D17192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7806FB613D8A0E8C492F363A /* Pods-转场动画.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "转场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyan.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "转场动画/转场动画-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3C314DCA1D3D0BD200D17192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "转场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyan.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/转场动画.app/转场动画";
+			};
+			name = Debug;
+		};
+		3C314DCB1D3D0BD200D17192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "转场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyan.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/转场动画.app/转场动画";
+			};
+			name = Release;
+		};
+		3C314DCD1D3D0BD200D17192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "转场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyan.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "转场动画";
+			};
+			name = Debug;
+		};
+		3C314DCE1D3D0BD200D17192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "转场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyan.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "转场动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C314D991D3D0BD100D17192 /* Build configuration list for PBXProject "转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C314DC41D3D0BD200D17192 /* Debug */,
+				3C314DC51D3D0BD200D17192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C314DC61D3D0BD200D17192 /* Build configuration list for PBXNativeTarget "转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C314DC71D3D0BD200D17192 /* Debug */,
+				3C314DC81D3D0BD200D17192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C314DC91D3D0BD200D17192 /* Build configuration list for PBXNativeTarget "转场动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C314DCA1D3D0BD200D17192 /* Debug */,
+				3C314DCB1D3D0BD200D17192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C314DCC1D3D0BD200D17192 /* Build configuration list for PBXNativeTarget "转场动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C314DCD1D3D0BD200D17192 /* Debug */,
+				3C314DCE1D3D0BD200D17192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C314D961D3D0BD100D17192 /* Project object */;
+}
